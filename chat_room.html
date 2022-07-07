@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter Room</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+        <title>Chat App Room</title>
+        <link rel="stylesheet" type="text/css" href="kwitter.css">
+        <script src="chat_room.js"></script>
+    </head>
+    <body>
+        <button class="logout" onclick="logout()">LOGOUT</button>
+        <center>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div" id="i">
+			<h4 id="user_name"></h4>
+            <input type="text" id="inputbox" class="form-control" placeholder="Room name">
+            <br>
+            <button class="addroom" onclick="addRoom()">ADDROOM</button>
+            <h4 id="room_peps"></h4>
+			
+			</div>
+            
+        </center>
+        
+    </body>
+</html>
